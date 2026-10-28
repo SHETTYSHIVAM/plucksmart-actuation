@@ -3,7 +3,7 @@ import serial
 import time
 
 # Update this with the Arduino's COM port.
-ARDUINO_PORT = "COM3"
+ARDUINO_PORT = "COM5"
 BAUD_RATE = 9600
 
 arduino = None
@@ -28,7 +28,7 @@ try:
     )
 
     # Arduino Uno resets when serial is opened.
-    time.sleep(2)
+    time.sleep(4)
     arduino.reset_input_buffer()
 
     print("Connected successfully.")

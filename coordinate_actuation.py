@@ -3,11 +3,11 @@ import time
 import serial
 
 # ---------- Configuration ----------
-ARDUINO_PORT = "COM3"  # Change to your Arduino COM port
+ARDUINO_PORT = "COM5"  # Change to your Arduino COM port
 BAUD_RATE = 9600
 
-IMAGE_WIDTH = 704
-IMAGE_HEIGHT = 704
+IMAGE_WIDTH = 640
+IMAGE_HEIGHT = 640
 
 CONFIDENCE_THRESHOLD = 0.50
 DEAD_BAND = 40           # Pixels around image center
